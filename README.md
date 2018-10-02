@@ -13,7 +13,7 @@
 
 # Assignment Description
 ## Program 3 - Unix System Tools
-### Due Date: 5:00 p.m., October 12th, 2018
+### Due Date: 5:00 p.m., October 17th, 2018
 
 *All programs will be tested on the machines in the Q22 lab. If your code does not run on the system in this lab, it is considered non-functioning EVEN IF IT RUNS ON YOUR PERSONAL COMPUTER. Always check that your code runs on the lab machines before submitting.*
 
