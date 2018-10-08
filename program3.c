@@ -1,4 +1,3 @@
-#include "badmem.h"
 #include <stdlib.h>
 #include <stdio.h>
 #pragma GCC diagnostic ignored "-Wreturn-local-addr"
