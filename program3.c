@@ -5,16 +5,17 @@
 
 void f1(){
     int *a = malloc(sizeof(int) * 3);
-    for (int i = 0; i < sizeof(int); i++){
+    for (int i = 0; i < 3; i++){
         a[i] = i;
     }
+    free(a);
 }
 void f2(){
     int a[10];
-    for (int i = 0; i < sizeof(a); i++){
+    for (int i = 0; i < sizeof(a)/sizeof(int); i++){
         a[i] = i;
     }
-    for (int i = 10; i >= sizeof(a); i++){
+    for (int i = 0; i < sizeof(a)/sizeof(int); i++){
         printf("%d ", a[i]);
     }
     printf("\n");
@@ -22,8 +23,8 @@ void f2(){
 
 void f3(){
     char * cptr = calloc(10, sizeof(char));
-    cptr[10] = 'a';
-    char * junk = cptr[0];
+    cptr[9] = 'a';
+    char * junk = cptr;
     free(junk);
 }
 
