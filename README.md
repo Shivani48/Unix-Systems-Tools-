@@ -3,13 +3,16 @@
 ### PROGRAM 2 README FILE
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
-- What parts of the program you were not able to complete
+- All parts are complete
 
 ## REFERENCES:
-- List any outside resources used
+- valgrind.org
+- linux.die.net/man/1/valgrind
+- https://www.gnu.org/software/gdb/documentation/
+- 
 
 ## MISCELLANEOUS COMMENTS:
-- Anything you would like the grader to know
+- N/A
 
 # Assignment Description
 ## Program 3 - Unix System Tools
